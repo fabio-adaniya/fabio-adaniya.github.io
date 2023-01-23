@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #0D1117;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+ol {
+    list-style: none;
+    text-align: right;
+    display: none;
+}
+
+li {
+    display: inline;
+    cursor: pointer;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.iconeMenu {
+    font-size: 32px;
+}
+
+.itensMenuDesktop {
+    background-color: #34445C;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+.menu-mobile {
+    display: none;
+    text-align: center;
+    background-color: #34445C;
+    padding: 10px;
+}
+
+.itensMenuMobile {
+    color: #FFFFFF;
+}
+
+.conteudo {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+}
+
+.iconeGitHub {
+    font-size: 256px;
+}
+
+.btnGitHub {
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #2488DB;
+}
+
+@media (min-width: 1000px) {
+    .iconeMenu {
+        display: none;
+    }
+
+    ol {
+        display: block;
+    }
+
+    .menu-mobile {
+        display: none !important;
+    }
+}
