@@ -18,6 +18,7 @@ ol {
     list-style: none;
     text-align: right;
     display: none;
+    padding: 5px;
 }
 
 li {
@@ -36,8 +37,13 @@ a {
 
 .itensMenuDesktop {
     background-color: #34445C;
-    padding: 5px;
+    padding: 7px;
     color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.itensMenuDesktop:hover {
+    background-color: #6483B0;
 }
 
 .menu-mobile {
@@ -74,6 +80,11 @@ a {
     border-radius: 20px;
     border: none;
     background-color: #2488DB;
+    cursor: pointer;
+}
+
+.btnGitHub:hover {
+    background-color: #29BEFF;
 }
 
 @media (min-width: 1000px) {
